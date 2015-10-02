@@ -1,0 +1,9 @@
+[user]
+  name = Yusuke Nozoe
+  email = yusuke.nozoe@gmail.com
+[alias]
+  st = status
+  ad  = add
+  cm  = commit
+  co  = checkout
+  br = branch
