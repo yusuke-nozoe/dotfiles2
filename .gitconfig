@@ -1,6 +1,8 @@
 [user]
   name = Yusuke Nozoe
   email = yusuke.nozoe@gmail.com
+[core]
+  excludesfile = ~/.gitignore  # globalな.gitignoreの指定
 [alias]
   st = status
   ad  = add
