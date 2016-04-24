@@ -31,7 +31,12 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
+"-------------------------------------------------------------------------------
+" Syntax Highlight
+"-------------------------------------------------------------------------------
+
 syntax on
+au BufNewFile,BufRead *.json.jbuilder,*.docx.caracal set ft=ruby
 
 "-------------------------------------------------------------------------------
 " インデント Indent
@@ -41,4 +46,5 @@ set smartindent  " 新しい行を開始したときに、新しい行のイン�
 set cindent      " Cプログラムファイルの自動インデントを始める
 
 set tabstop=2 shiftwidth=2 softtabstop=0
+autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 set expandtab

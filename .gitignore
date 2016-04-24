@@ -1,2 +1,4 @@
 .DS_Store
-*.sw[po]
+dist/**
+node_modules/
+*.swp
