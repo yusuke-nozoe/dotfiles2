@@ -11,6 +11,6 @@
   br = branch
   cmb = "!f () { git commit -m \"[$(git branch -a | grep '^*' | cut -b 3-)] $1\" $2;}; f"
 [push]
-	default = simple
+	default = current
 [merge]
 	tool = diffmerge
