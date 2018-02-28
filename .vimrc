@@ -48,3 +48,4 @@ set cindent      " Cプログラムファイルの自動インデントを始め
 set tabstop=2 shiftwidth=2 softtabstop=0
 autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 set expandtab
+set backspace=indent,eol,start
